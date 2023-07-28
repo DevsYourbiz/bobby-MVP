@@ -11,5 +11,4 @@ export default defineConfig({
       cert: fs.readFileSync("./certs/localhost+1.pem")
     }
   },
-  base: '/bobby.github.io/'
 })
